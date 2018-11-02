@@ -1,0 +1,134 @@
+/*
+Theme Name: Simplista
+Theme URI: https://timothyhorst.com
+Author: Tim Horst
+Author URI: https://timothyhorst.com
+Description: A basic theme.
+Version: 1.0
+Text Domain: simplista
+*/
+
+/*
+ * Globals
+ */
+
+body {
+  background: #fff;
+  color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2 {
+  font-weight: bold;
+  margin-left: 45px;
+}
+p {
+  font-size: 16px;
+  color: #8e8d8d;
+}
+
+a {
+  color: #8e8d8d;
+  text-decoration:none;
+}
+a:hover {
+  color: #8e8d8d;
+  text-decoration:underline;
+  }
+/****  Nav  ***/
+.navbar {
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #f7f7f7;
+  font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+  background: #3b99d3;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+  background: #2C463C;
+}
+.navbar-inverse {
+  background: #2E2F31;
+  border: 0;
+}
+/*** bannner ***/
+.jumbotron {
+  background: #3b99d3;
+  color: white;
+  text-align: center;
+}
+.jumbotron p {
+  color: white;
+  font-size: 26px;
+}
+
+.dropdown-menu {
+  background: #2E2F31;
+  border-radius: 0;
+  border: 0;
+}
+
+.dropdown-menu li a {
+  padding: 10px;
+}
+
+/*** buttons ***/
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: white;
+  margin-bottom: 5px;
+}
+.btn-primary:hover {
+  color: #27A967;
+  background-color: white;
+  border-color: white;
+}
+
+/** cta's ***/
+.glyphicon-large {
+  font-size: 100px;
+}
+.call-to-action {
+  text-align: center;
+}
+.call-to-action p {
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+
+/*** ***/
+.blog-post {
+  color:#8e8d8d;
+}
+
+.blog-single {
+  margin-left:0;
+}
+.glyphicon-post {
+  font-size:30px;
+  position: absolute;
+  top: 24px;
+
+}
+
+/*** footer ***/
+
+.copy {
+  margin: auto 0;
+  text-align: center;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+
+  h1,h2 {
+    margin-left:0;
+}
+.glyphicon {
+  display:none;
+}
