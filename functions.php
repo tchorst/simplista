@@ -5,8 +5,8 @@
       'footer-menu' => __( 'Footer Menu' )
     ));
  add_theme_support( 'custom-logo', array(
-   'height' => 80,
-   'width' => 200,
+   'height' => 40,
+   'width' => 100,
    'flex-height' => true,
   )
  );
