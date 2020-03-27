@@ -143,8 +143,9 @@ ul.menu li {
   padding:0;
 }
 .blog-main {
-  width:80%;
+  width:78%;
   float:left;
+  margin-right:2%
 }
 .blog-post {
   color:#8e8d8d;
@@ -177,7 +178,7 @@ input[type="submit"] {
 }
 /*** sidebar ***/
 .widget-area {
-  width:20%;
+  width:19%;
   float:left;
   margin-left:-1px;
   margin-right:-1px;
