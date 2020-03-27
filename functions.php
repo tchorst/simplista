@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
   register_nav_menus( array(
       'nav-menu' => __( 'Nav Menu' ),
       'footer-menu' => __( 'Footer Menu' )
@@ -11,6 +12,8 @@
   )
  );
 
+=======
+>>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
 function bootstrapstarter_enqueue_styles() {
     wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
     $dependencies = array('bootstrap');
@@ -30,6 +33,7 @@ function bootstrapstarter_wp_setup() {
 }
 
 add_action( 'after_setup_theme', 'bootstrapstarter_wp_setup' );
+<<<<<<< HEAD
 add_theme_support( 'post-thumbnails' );
 
 add_action( 'widgets_init', 'my_awesome_sidebar' );
@@ -48,3 +52,6 @@ function my_awesome_sidebar() {
   register_sidebar( $args );
 
 }
+=======
+add_theme_support( 'post-thumbnails' );
+>>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
