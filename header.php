@@ -11,7 +11,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <?php wp_head(); ?>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway&display=swap" rel="stylesheet">
     <link rel='stylesheet' id='FontAwesome-css'  href='//use.fontawesome.com/releases/v5.0.13/css/all.css' type='text/css' media='all' />
 </head>
 
