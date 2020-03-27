@@ -198,7 +198,7 @@ aside li {
 }
 
 /*** mailchimp ***/
-.mc4wp-form input[type="text"], .mc4wp-form input[type="textarea"], .mc4wp-form input[type="select"], .mc4wp-form input[type="email"] {
+.mc4wp-form input[type="text"], .mc4wp-form input[type="textarea"], .mc4wp-form input[type="select"], .mc4wp-form input[type="email"], .mc4wp-form textarea {
   background-image:none !important;
   width:50%;
 }
