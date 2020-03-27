@@ -1,0 +1,205 @@
+/*
+Theme Name: Simplista
+Theme URI: https://timothyhorst.com
+Author: Tim Horst
+Author URI: https://timothyhorst.com
+Description: A basic theme.
+Version: 1.0
+Text Domain: simplista
+*/
+
+/*
+ * Globals
+ */
+
+body {
+  background: #fff;
+  color: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+  line-height:1.9;
+    letter-spacing: 1px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Josefin Sans', sans-serif;
+    font-weight:300;
+}
+h1,h2 {
+  letter-spacing: 1px;
+  margin-bottom:20px;
+}
+p {
+  font-size: 16px;
+  color: #8e8d8d;
+}
+
+a {
+  color: #8e8d8d;
+  text-decoration:none;
+}
+a:hover {
+  color: #c8ad7a;
+  text-decoration:none;
+  -webkit-transition:color 0.3s;
+  transition: color 0.3s;
+  }
+a:active {
+    color: #c8ad7a;
+  }
+/****  Nav  ***/
+ul.menu {
+  list-style-type:none;
+  margin-top:10px;
+}
+ul.menu li {
+  display:inline-block;
+  padding: 0 10px;
+}
+
+.navbar {
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #f7f7f7;
+  font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+  text-decoration:none;
+  color:#9d9d9d;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+  background: #2C463C;
+}
+.navbar-inverse {
+  background: #2d2d2d;
+  border: 0;
+}
+/*** bannner ***/
+.jumbotron {
+  background: #404142;
+  color: white;
+  text-align: center;
+  margin-bottom:60px;
+}
+.jumbotron .h1, .jumbotron h1, .jumbotron h2 {
+  margin-left:0;
+  margin-bottom:0;
+}
+.jumbotron p {
+  color: white;
+  font-size: 26px;
+  margin-bottom:0;
+}
+
+.dropdown-menu {
+  background: #2E2F31;
+  border-radius: 0;
+  border: 0;
+}
+
+.dropdown-menu li a {
+  padding: 10px;
+}
+
+/*** buttons ***/
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: white;
+  margin-bottom: 5px;
+}
+.btn-primary:hover {
+  color: #27A967;
+  background-color: white;
+  border-color: white;
+}
+.button {
+  color: #c8ad7a;
+  font-size:14px;
+  padding: 12px 30px;
+  border:1px solid #c8ad7a;
+  letter-spacing: 3px;
+  margin-top:40px;
+}
+.post-button {
+  display:table;
+}
+/** cta's ***/
+.glyphicon-large {
+  font-size: 100px;
+}
+.call-to-action {
+  text-align: center;
+}
+.call-to-action p {
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+
+/*** ***/
+.container {
+  padding:0;
+}
+.blog-main {
+  width:80%;
+  float:left;
+}
+.blog-post {
+  color:#8e8d8d;
+  border-bottom:1px solid #ccc;
+  padding:60px;
+}
+
+.blog-single {
+  margin-left:0;
+}
+.glyphicon-post {
+  font-size:30px;
+  position: absolute;
+  top: 24px;
+}
+
+/*** forms ***/
+
+form label {
+  color:#8e8d8d;
+}
+input[type="submit"] {
+  color: #c8ad7a;
+  font-size:12px;
+  padding: 3px 15px;
+  border:1px solid #c8ad7a;
+  letter-spacing: 3px;
+  margin-top:5px;
+  background-color:#fff;
+}
+/*** sidebar ***/
+.widget-area {
+  width:20%;
+  float:left;
+  margin-left:-1px;
+  margin-right:-1px;
+}
+aside li {
+  margin-top:25%;
+}
+/*** footer ***/
+
+.copy {
+  margin: auto 0;
+  text-align: center;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+ .jumbotron .h1, .jumbotron h1 {
+  margin-top:30px;
+ }
+  h1,h2 {
+    margin-left:0;
+}
+ .glyphicon {
+   display:none;
+}
