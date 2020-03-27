@@ -198,8 +198,8 @@ aside li {
 }
 
 /*** mailchimp ***/
-.mc4wp-form input[type="text"], .mc4wp-form input[type="textarea"], .mc4wp-form input[type="select"] {
-  background-image:none;
+.mc4wp-form input[type="text"], .mc4wp-form input[type="textarea"], .mc4wp-form input[type="select"], .mc4wp-form input[type="email"] {
+  background-image:none !important;
   width:50%;
 }
 /*** footer ***/
