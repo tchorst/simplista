@@ -49,6 +49,9 @@ img {
     max-width:100%;
     height:auto;
   }
+.custom-logo {
+   margin-top:7px;
+  }
 /****  Nav  ***/
 ul.menu {
   list-style-type:none;
@@ -201,6 +204,9 @@ aside li {
   padding-top: 50px;
 }
 @media only screen and (max-width: 768px) {
+  .jumbotron {
+    margin-bottom:0;
+  }
 .blog-main, .widget-area {
   float:none;
   width:100%;
@@ -220,6 +226,9 @@ aside li {
   margin-top:1%;
 }
 @media only screen and (max-width: 480px) {
+ .jumbotron {
+    margin-bottom:0;
+  }
  .jumbotron .h1, .jumbotron h1 {
   margin-top:30px;
  }
