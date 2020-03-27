@@ -196,6 +196,12 @@ input[type="submit"] {
 aside li {
   margin-top:25%;
 }
+
+/*** mailchimp ***/
+.mc4wp-form input[type="text"], .mc4wp-form input[type="textarea"], .mc4wp-form input[type="select"] {
+  background-image:none;
+  width:50%;
+}
 /*** footer ***/
 
 .copy {
