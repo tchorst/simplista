@@ -15,7 +15,6 @@ Text Domain: simplista
 body {
   background: #fff;
   color: #f7f7f7;
-<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
   line-height:1.9;
     letter-spacing: 1px;
@@ -27,13 +26,6 @@ h1,h2,h3,h4,h5,h6 {
 h1,h2 {
   letter-spacing: 1px;
   margin-bottom:20px;
-=======
-  font-family: 'Montserrat', sans-serif;
-}
-h1,h2 {
-  font-weight: bold;
-  margin-left: 45px;
->>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
 }
 p {
   font-size: 16px;
@@ -45,7 +37,6 @@ a {
   text-decoration:none;
 }
 a:hover {
-<<<<<<< HEAD
   color: #c8ad7a;
   text-decoration:none;
   -webkit-transition:color 0.3s;
@@ -64,12 +55,6 @@ ul.menu li {
   padding: 0 10px;
 }
 
-=======
-  color: #8e8d8d;
-  text-decoration:underline;
-  }
-/****  Nav  ***/
->>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
 .navbar {
   position: fixed; 
   top: 0; 
@@ -81,27 +66,18 @@ ul.menu li {
   font-size: 16px;
 }
 .navbar-inverse .navbar-nav li a:hover {
-<<<<<<< HEAD
   text-decoration:none;
   color:#9d9d9d;
-=======
-  background: #3b99d3;
->>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
 }
 .navbar-inverse .navbar-nav .dropdown-menu li a:hover {
   background: #2C463C;
 }
 .navbar-inverse {
-<<<<<<< HEAD
   background: #2d2d2d;
-=======
-  background: #2E2F31;
->>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
   border: 0;
 }
 /*** bannner ***/
 .jumbotron {
-<<<<<<< HEAD
   background: #404142;
   color: white;
   text-align: center;
@@ -110,19 +86,11 @@ ul.menu li {
 .jumbotron .h1, .jumbotron h1, .jumbotron h2 {
   margin-left:0;
   margin-bottom:0;
-=======
-  background: #3b99d3;
-  color: white;
-  text-align: center;
->>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
 }
 .jumbotron p {
   color: white;
   font-size: 26px;
-<<<<<<< HEAD
   margin-bottom:0;
-=======
->>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
 }
 
 .dropdown-menu {
@@ -147,7 +115,6 @@ ul.menu li {
   background-color: white;
   border-color: white;
 }
-<<<<<<< HEAD
 .button {
   color: #c8ad7a;
   font-size:14px;
@@ -159,9 +126,6 @@ ul.menu li {
 .post-button {
   display:table;
 }
-=======
-
->>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
 /** cta's ***/
 .glyphicon-large {
   font-size: 100px;
@@ -175,7 +139,6 @@ ul.menu li {
 }
 
 /*** ***/
-<<<<<<< HEAD
 .container {
   padding:0;
 }
@@ -187,10 +150,6 @@ ul.menu li {
   color:#8e8d8d;
   border-bottom:1px solid #ccc;
   padding:60px;
-=======
-.blog-post {
-  color:#8e8d8d;
->>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
 }
 
 .blog-single {
@@ -200,7 +159,6 @@ ul.menu li {
   font-size:30px;
   position: absolute;
   top: 24px;
-<<<<<<< HEAD
 }
 
 /*** forms ***/
@@ -227,11 +185,6 @@ input[type="submit"] {
 aside li {
   margin-top:25%;
 }
-=======
-
-}
-
->>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
 /*** footer ***/
 
 .copy {
@@ -241,7 +194,6 @@ aside li {
 }
 
 @media only screen and (max-width: 480px) {
-<<<<<<< HEAD
  .jumbotron .h1, .jumbotron h1 {
   margin-top:30px;
  }
@@ -250,12 +202,4 @@ aside li {
 }
  .glyphicon {
    display:none;
-=======
-
-  h1,h2 {
-    margin-left:0;
-}
-.glyphicon {
-  display:none;
->>>>>>> bb4951528115f0cb2b12993f7fe1774797cdad0c
 }
