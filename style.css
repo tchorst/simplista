@@ -45,6 +45,9 @@ a:hover {
 a:active {
     color: #c8ad7a;
   }
+img {
+    max-width:100%;
+  }
 /****  Nav  ***/
 ul.menu {
   list-style-type:none;
